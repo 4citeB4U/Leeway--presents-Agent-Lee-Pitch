@@ -134,7 +134,7 @@ export default function Solution() {
         </div>
 
         <div className="space-y-6 mb-16">
-          {subsystems.map((s, i) => (
+          {subsystems.map((s) => (
             <div key={s.name} className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:border-cyan-800/50 transition-all">
               <div className="flex flex-col lg:flex-row gap-8">
                 <div className="lg:w-64 shrink-0">
